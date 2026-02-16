@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="music-page">
+
+<!-- VIDEO BACKGROUND -->
+<video autoplay muted loop class="bg-video">
+    <source src="photo/assets/background video.mp4">
+</video>
+
+<div class="overlay"></div>
+
+<a href="index.html" class="back-btn">BACK</a>
+
+<!-- SPOTIFY MINI CONTAINER -->
+<div class="spotify-mini">
+
+    <h1 class="spotify-title">Your Playlist</h1>
+
+    <!-- SEARCH -->
+    <div class="spotify-search">
+        <input type="text" id="searchInput" onkeyup="searchSong()" placeholder="What do you want to listen to?">
+    </div>
+
+    <!-- SONG LIST -->
+    <div class="spotify-list">
+
+        <div class="spotify-song song-item">
+            <div class="song-info">
+                <h3>Ayaw Baya</h3>
+                <p>Artist Name</p>
+            </div>
+            <audio controls>
+                <source src="photo/assets/assests/Arthur Nery - Ayaw Baya.mp3">
+            </audio>
+        </div>
+
+        <div class="spotify-song song-item">
+            <div class="song-info">
+                <h3>Di Nakakasawa</h3>
+                <p>Artist Name</p>
+            </div>
+            <audio controls>
+                <source src="photo/assets/assests/Arthur Nery - Di Nakakasawa.mp3">
+            </audio>
+        </div>
+
+        <div class="spotify-song song-item">
+            <div class="song-info">
+                <h3>Pelikula</h3>
+                <p> Arthur Nery and Janine Teñoso</p>
+            </div>
+            <audio controls>
+                <source src="photo/assets/assests/Pelikula - Arthur Nery and Janine Teñoso.mp3">
+            </audio>
+        </div>
+
+        <div class="spotify-song song-item">
+            <div class="song-info">
+                <h3>Sinag </h3>
+                <p> Arthur Nery</p>
+            </div>
+            <audio controls>
+                <source src="photo/assets/assests/Sinag - Arthur Nery.mp3">
+            </audio>
+        </div>
+        <div class="spotify-song song-item">
+            <div class="song-info">
+                <h3>Binhi</h3>
+                <p> Arthur Nery</p>
+            </div>
+            <audio controls>
+                <source src="photo/assets/assests/Binhi.mp3">
+            </audio>
+        </div>
+        <div class="spotify-song song-item">
+            <div class="song-info">
+                <h3>Got Me Tangled</h3>
+                <p> Arthur Nery</p>
+            </div>
+            <audio controls>
+                <source src="photo/assets/assests/Got Me Tangled.mp3">
+            </audio>
+        </div>
+        <div class="spotify-song song-item">
+            <div class="song-info">
+                <h3>Higa</h3>
+                <p> Arthur Nery</p>
+            </div>
+            <audio controls>
+                <source src="photo/assets/assests/Higa.mp3">
+            </audio>
+        </div>
+        <div class="spotify-song song-item">
+            <div class="song-info">
+                <h3>Lullaby</h3>
+                <p> Arthur Nery</p>
+            </div>
+            <audio controls>
+                <source src="photo/assets/assests/Lullaby.mp3">
+            </audio>
+        </div>
+        <div class="spotify-song song-item">
+            <div class="song-info">
+                <h3>Paalam Lang Ang Palagi</h3>
+                <p> Arthur Nery</p>
+            </div>
+            <audio controls>
+                <source src="photo/assets/assests/Paalam Lang Ang Palagi.mp3">
+            </audio>
+        </div>
+        <div class="spotify-song song-item">
+            <div class="song-info">
+                <h3>Pagsamo</h3>
+                <p> Arthur Nery</p>
+            </div>
+            <audio controls>
+                <source src="photo/assets/assests/Pagsamo.mp3">
+            </audio>
+        </div>
+        <div class="spotify-song song-item">
+            <div class="song-info">
+                <h3>Palaisipan</h3>
+                <p> Arthur Nery</p>
+            </div>
+            <audio controls>
+                <source src="photo/assets/assests/Palaisipan.mp3">
+            </audio>
+        </div>
+    
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
